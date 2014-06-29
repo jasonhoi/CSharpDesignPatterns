@@ -59,5 +59,14 @@ class Client
         Console.WriteLine(calculatorStandard.Request(5, 3));
 
         Console.ReadLine();
+
+        /*
+         * Output:
+         * 
+         * Pluggable Adaptor
+         * (Precised) Estimate is 2
+         * (Standard) Estimate is 2
+         * 
+         */
     }
 }

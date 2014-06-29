@@ -77,5 +77,19 @@ class DecoratorPattern
         Console.WriteLine("\tadded state: " + b.addedState + ", added behavior: " + b.AddedBehavior());
 
         Console.ReadLine();
+
+        /*
+         * Output:
+         * 
+         * Decorator Pattern
+         * 
+         * 1. Basic component: I am walking
+         * 2. Decorated component A: I am walking and listening to radio
+         * 3. Decorated component B: I am walking to school
+         * 4. B-A-decorated component: I am walking and listening to radio to school
+         * 5. A-B-decorated component: I am walking to school and listening to radio
+         *          added state: outside, added behavior: also going to coffee shop
+         *          
+         * /
     }
 }

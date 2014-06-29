@@ -84,5 +84,21 @@ class Client : SubjectAccessor
         Console.WriteLine(subject.Request());
 
         Console.ReadLine();
+
+        /*
+         * Output:
+         * 
+         * Proxy Pattern
+         * 
+         * Subject inactive
+         * Subject activated
+         * Proxy A: Call - Subject request response
+         * 
+         * Protected Proxy: Must authenticated first
+         * Protected Proxy: No access
+         * Protected Proxy: Authenticated
+         * Protected Proxy: Call - Subject request response
+         * 
+         */ 
     }
 }

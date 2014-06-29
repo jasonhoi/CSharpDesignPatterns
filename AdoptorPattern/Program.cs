@@ -27,7 +27,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Adoptor Pattern \n");
+        Console.WriteLine("Adaptor Pattern \n");
 
         Adaptee precise = new Adaptee();
         Console.WriteLine("Before the standard precise reading: ");
@@ -37,5 +37,17 @@ class Program
         Console.WriteLine("Before the standard precise reading: ");
         Console.WriteLine(adoptedObj.Request(5, 3));
         Console.ReadLine();
+
+        /*
+         * Output:
+         * 
+         * Adaptor Pattern
+         * 
+         * Before the standard precise reading:
+         * 1.66666666666667
+         * Before the standard precise reading:
+         * Rough estimate is 2
+         * 
+         */
     }
 }
