@@ -34,7 +34,7 @@ class Program
         Console.WriteLine(precise.SpecificRequest(5, 3));
 
         ITarget adoptedObj = new Adoptor();
-        Console.WriteLine("Before the standard precise reading: ");
+        Console.WriteLine("Standard precise reading: ");
         Console.WriteLine(adoptedObj.Request(5, 3));
         Console.ReadLine();
 
@@ -45,7 +45,7 @@ class Program
          * 
          * Before the standard precise reading:
          * 1.66666666666667
-         * Before the standard precise reading:
+         * Standard precise reading:
          * Rough estimate is 2
          * 
          */
