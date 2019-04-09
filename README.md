@@ -1,4 +1,4 @@
-CSharpDesignPatterns W.I.P.
+Design Patterns in C#
 ====================
 
 Sample C# codes from the book - C# 3.0 Design Patterns
